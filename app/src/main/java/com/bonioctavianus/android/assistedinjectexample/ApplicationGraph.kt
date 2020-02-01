@@ -6,5 +6,5 @@ import javax.inject.Singleton
 @Singleton
 @Component(modules = [AssistedInjectModule::class])
 interface ApplicationGraph {
-    val secondViewModelFactory: SecondViewModelFactory.Factory
+    val secondViewModelFactory: SecondViewModel.Factory
 }
